@@ -1,0 +1,5 @@
+message("-- Linking LTT")
+add_library(lttosal30 SHARED IMPORTED lttosal30.dll)
+add_library(ltt2api30 SHARED IMPORTED ltt2api30.dll)
+set_target_properties(lttosal30 PROPERTIES LINKER_LANGUAGE C)
+set_target_properties(ltt2api30 PROPERTIES LINKER_LANGUAGE C )

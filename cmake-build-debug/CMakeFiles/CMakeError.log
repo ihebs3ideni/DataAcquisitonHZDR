@@ -1,0 +1,426 @@
+Detecting C OpenMP failed with the following output:
+Change Dir: C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe -f Makefile cmTC_aef2c/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_aef2c.dir\build.make CMakeFiles/cmTC_aef2c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aef2c.dir/OpenMPTryFlag.c.obj
+C:\TDM-GCC-32\bin\gcc.exe   -fopenmp -v -o CMakeFiles\cmTC_aef2c.dir\OpenMPTryFlag.c.obj -c C:\Users\User\Desktop\HZDR\hzdr_tasler_data_acquisition\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_aef2c.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_MT -D_REENTRANT C:\Users\User\Desktop\HZDR\hzdr_tasler_data_acquisition\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=pentiumpro -mthreads -auxbase-strip CMakeFiles\cmTC_aef2c.dir\OpenMPTryFlag.c.obj -version -fopenmp -o C:\Users\User\AppData\Local\Temp\ccezgKTC.s
+GNU C17 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"
+ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed
+End of search list.
+GNU C17 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 84c8f2a8269d1f793f530dde04d5127f
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_aef2c.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_aef2c.dir\OpenMPTryFlag.c.obj C:\Users\User\AppData\Local\Temp\ccezgKTC.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_aef2c.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+Linking C executable cmTC_aef2c.exe
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_aef2c.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_aef2c.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe qc CMakeFiles\cmTC_aef2c.dir/objects.a @CMakeFiles\cmTC_aef2c.dir\objects1.rsp
+C:\TDM-GCC-32\bin\gcc.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\cmTC_aef2c.dir/objects.a -Wl,--no-whole-archive -o cmTC_aef2c.exe -Wl,--out-implib,libcmTC_aef2c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_aef2c.dir\linklibs.rsp
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+Reading specs from libgomp.spec
+gcc.exe: fatal error: cannot read spec file 'libgomp.spec': No such file or directory
+compilation terminated.
+CMakeFiles\cmTC_aef2c.dir\build.make:99: recipe for target 'cmTC_aef2c.exe' failed
+mingw32-make.exe[1]: *** [cmTC_aef2c.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aef2c/fast' failed
+mingw32-make.exe: *** [cmTC_aef2c/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe -f Makefile cmTC_81604/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_81604.dir\build.make CMakeFiles/cmTC_81604.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81604.dir/OpenMPTryFlag.cpp.obj
+C:\TDM-GCC-32\bin\g++.exe   -fopenmp -v -o CMakeFiles\cmTC_81604.dir\OpenMPTryFlag.cpp.obj -c C:\Users\User\Desktop\HZDR\hzdr_tasler_data_acquisition\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_81604.dir\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_MT -D_REENTRANT C:\Users\User\Desktop\HZDR\hzdr_tasler_data_acquisition\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=pentiumpro -mthreads -auxbase-strip CMakeFiles\cmTC_81604.dir\OpenMPTryFlag.cpp.obj -version -fopenmp -o C:\Users\User\AppData\Local\Temp\ccZiGzKA.s
+GNU C++14 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/mingw32"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/backward"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"
+ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/mingw32
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/backward
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed
+End of search list.
+GNU C++14 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3069c1276a5c94a09925c71f29eaa033
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_81604.dir\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_81604.dir\OpenMPTryFlag.cpp.obj C:\Users\User\AppData\Local\Temp\ccZiGzKA.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_81604.dir\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+Linking CXX executable cmTC_81604.exe
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_81604.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_81604.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe qc CMakeFiles\cmTC_81604.dir/objects.a @CMakeFiles\cmTC_81604.dir\objects1.rsp
+C:\TDM-GCC-32\bin\g++.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\cmTC_81604.dir/objects.a -Wl,--no-whole-archive -o cmTC_81604.exe -Wl,--out-implib,libcmTC_81604.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_81604.dir\linklibs.rsp
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe
+COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+Reading specs from libgomp.spec
+g++.exe: fatal error: cannot read spec file 'libgomp.spec': No such file or directory
+compilation terminated.
+CMakeFiles\cmTC_81604.dir\build.make:99: recipe for target 'cmTC_81604.exe' failed
+mingw32-make.exe[1]: *** [cmTC_81604.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_81604/fast' failed
+mingw32-make.exe: *** [cmTC_81604/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe -f Makefile cmTC_ab08e/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ab08e.dir\build.make CMakeFiles/cmTC_ab08e.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab08e.dir/OpenMPTryFlag.c.obj
+C:\TDM-GCC-32\bin\gcc.exe   -fopenmp -v -o CMakeFiles\cmTC_ab08e.dir\OpenMPTryFlag.c.obj -c C:\Users\User\Desktop\HZDR\hzdr_tasler_data_acquisition\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_ab08e.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_MT -D_REENTRANT C:\Users\User\Desktop\HZDR\hzdr_tasler_data_acquisition\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=pentiumpro -mthreads -auxbase-strip CMakeFiles\cmTC_ab08e.dir\OpenMPTryFlag.c.obj -version -fopenmp -o C:\Users\User\AppData\Local\Temp\cctqF3us.s
+GNU C17 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"
+ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed
+End of search list.
+GNU C17 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 84c8f2a8269d1f793f530dde04d5127f
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_ab08e.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_ab08e.dir\OpenMPTryFlag.c.obj C:\Users\User\AppData\Local\Temp\cctqF3us.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_ab08e.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+Linking C executable cmTC_ab08e.exe
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ab08e.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ab08e.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe qc CMakeFiles\cmTC_ab08e.dir/objects.a @CMakeFiles\cmTC_ab08e.dir\objects1.rsp
+C:\TDM-GCC-32\bin\gcc.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\cmTC_ab08e.dir/objects.a -Wl,--no-whole-archive -o cmTC_ab08e.exe -Wl,--out-implib,libcmTC_ab08e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ab08e.dir\linklibs.rsp
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+Reading specs from libgomp.spec
+gcc.exe: fatal error: cannot read spec file 'libgomp.spec': No such file or directory
+compilation terminated.
+CMakeFiles\cmTC_ab08e.dir\build.make:99: recipe for target 'cmTC_ab08e.exe' failed
+mingw32-make.exe[1]: *** [cmTC_ab08e.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ab08e/fast' failed
+mingw32-make.exe: *** [cmTC_ab08e/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe -f Makefile cmTC_bccf0/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bccf0.dir\build.make CMakeFiles/cmTC_bccf0.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bccf0.dir/OpenMPTryFlag.cpp.obj
+C:\TDM-GCC-32\bin\g++.exe   -fopenmp -v -o CMakeFiles\cmTC_bccf0.dir\OpenMPTryFlag.cpp.obj -c C:\Users\User\Desktop\HZDR\hzdr_tasler_data_acquisition\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_bccf0.dir\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_MT -D_REENTRANT C:\Users\User\Desktop\HZDR\hzdr_tasler_data_acquisition\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=pentiumpro -mthreads -auxbase-strip CMakeFiles\cmTC_bccf0.dir\OpenMPTryFlag.cpp.obj -version -fopenmp -o C:\Users\User\AppData\Local\Temp\ccOgwhMc.s
+GNU C++14 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/mingw32"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/backward"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"
+ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/mingw32
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/backward
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed
+End of search list.
+GNU C++14 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3069c1276a5c94a09925c71f29eaa033
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_bccf0.dir\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_bccf0.dir\OpenMPTryFlag.cpp.obj C:\Users\User\AppData\Local\Temp\ccOgwhMc.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_bccf0.dir\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+Linking CXX executable cmTC_bccf0.exe
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bccf0.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_bccf0.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe qc CMakeFiles\cmTC_bccf0.dir/objects.a @CMakeFiles\cmTC_bccf0.dir\objects1.rsp
+C:\TDM-GCC-32\bin\g++.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\cmTC_bccf0.dir/objects.a -Wl,--no-whole-archive -o cmTC_bccf0.exe -Wl,--out-implib,libcmTC_bccf0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bccf0.dir\linklibs.rsp
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe
+COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+Reading specs from libgomp.spec
+g++.exe: fatal error: cannot read spec file 'libgomp.spec': No such file or directory
+compilation terminated.
+CMakeFiles\cmTC_bccf0.dir\build.make:99: recipe for target 'cmTC_bccf0.exe' failed
+mingw32-make.exe[1]: *** [cmTC_bccf0.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bccf0/fast' failed
+mingw32-make.exe: *** [cmTC_bccf0/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe -f Makefile cmTC_0b644/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0b644.dir\build.make CMakeFiles/cmTC_0b644.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b644.dir/OpenMPTryFlag.c.obj
+C:\TDM-GCC-32\bin\gcc.exe   -fopenmp -v -o CMakeFiles\cmTC_0b644.dir\OpenMPTryFlag.c.obj -c C:\Users\User\Desktop\HZDR\hzdr_tasler_data_acquisition\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_0b644.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_MT -D_REENTRANT C:\Users\User\Desktop\HZDR\hzdr_tasler_data_acquisition\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=pentiumpro -mthreads -auxbase-strip CMakeFiles\cmTC_0b644.dir\OpenMPTryFlag.c.obj -version -fopenmp -o C:\Users\User\AppData\Local\Temp\ccZR6JbR.s
+GNU C17 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"
+ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed
+End of search list.
+GNU C17 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 84c8f2a8269d1f793f530dde04d5127f
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_0b644.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_0b644.dir\OpenMPTryFlag.c.obj C:\Users\User\AppData\Local\Temp\ccZR6JbR.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_0b644.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+Linking C executable cmTC_0b644.exe
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0b644.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_0b644.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe qc CMakeFiles\cmTC_0b644.dir/objects.a @CMakeFiles\cmTC_0b644.dir\objects1.rsp
+C:\TDM-GCC-32\bin\gcc.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\cmTC_0b644.dir/objects.a -Wl,--no-whole-archive -o cmTC_0b644.exe -Wl,--out-implib,libcmTC_0b644.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0b644.dir\linklibs.rsp
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+Reading specs from libgomp.spec
+gcc.exe: fatal error: cannot read spec file 'libgomp.spec': No such file or directory
+compilation terminated.
+CMakeFiles\cmTC_0b644.dir\build.make:99: recipe for target 'cmTC_0b644.exe' failed
+mingw32-make.exe[1]: *** [cmTC_0b644.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0b644/fast' failed
+mingw32-make.exe: *** [cmTC_0b644/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe -f Makefile cmTC_d3e78/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d3e78.dir\build.make CMakeFiles/cmTC_d3e78.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3e78.dir/OpenMPTryFlag.cpp.obj
+C:\TDM-GCC-32\bin\g++.exe   -fopenmp -v -o CMakeFiles\cmTC_d3e78.dir\OpenMPTryFlag.cpp.obj -c C:\Users\User\Desktop\HZDR\hzdr_tasler_data_acquisition\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_d3e78.dir\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_MT -D_REENTRANT C:\Users\User\Desktop\HZDR\hzdr_tasler_data_acquisition\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=pentiumpro -mthreads -auxbase-strip CMakeFiles\cmTC_d3e78.dir\OpenMPTryFlag.cpp.obj -version -fopenmp -o C:\Users\User\AppData\Local\Temp\ccKPND2v.s
+GNU C++14 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/mingw32"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/backward"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"
+ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/mingw32
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/backward
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed
+End of search list.
+GNU C++14 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3069c1276a5c94a09925c71f29eaa033
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_d3e78.dir\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_d3e78.dir\OpenMPTryFlag.cpp.obj C:\Users\User\AppData\Local\Temp\ccKPND2v.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_d3e78.dir\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-mthreads' '-pthread'
+Linking CXX executable cmTC_d3e78.exe
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d3e78.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d3e78.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe qc CMakeFiles\cmTC_d3e78.dir/objects.a @CMakeFiles\cmTC_d3e78.dir\objects1.rsp
+C:\TDM-GCC-32\bin\g++.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\cmTC_d3e78.dir/objects.a -Wl,--no-whole-archive -o cmTC_d3e78.exe -Wl,--out-implib,libcmTC_d3e78.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d3e78.dir\linklibs.rsp
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe
+COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+Reading specs from libgomp.spec
+g++.exe: fatal error: cannot read spec file 'libgomp.spec': No such file or directory
+compilation terminated.
+CMakeFiles\cmTC_d3e78.dir\build.make:99: recipe for target 'cmTC_d3e78.exe' failed
+mingw32-make.exe[1]: *** [cmTC_d3e78.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d3e78/fast' failed
+mingw32-make.exe: *** [cmTC_d3e78/fast] Error 2
+
+
+

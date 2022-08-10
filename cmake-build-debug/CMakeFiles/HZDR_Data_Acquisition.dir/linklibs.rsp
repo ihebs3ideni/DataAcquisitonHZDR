@@ -1,0 +1,1 @@
+  -LC:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/Libraries/LTT_API  -lwsock32 -lws2_32 -llttosal30 -lltt2api30 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

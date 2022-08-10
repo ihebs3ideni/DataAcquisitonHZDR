@@ -1,0 +1,85 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "Libraries/LTT_API",
+					"jsonFile" : "directory-Libraries.LTT_API-Debug-202950469aa884d1e7be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Libraries/LTT_API"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "HZDR_Data_Acquisition",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HZDR_Data_Acquisition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HZDR_Data_Acquisition-Debug-7921535d3f3056315384.json",
+					"name" : "HZDR_Data_Acquisition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LTT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LTT-Debug-eb1ba0e499ac83980f9f.json",
+					"name" : "LTT",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug",
+		"source" : "C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\HZDR_Data_Acquisition.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe qc CMakeFiles\HZDR_Data_Acquisition.dir/objects.a @CMakeFiles\HZDR_Data_Acquisition.dir\objects1.rsp
+C:\TDM-GCC-32\bin\g++.exe -g -m32 -Wl,--whole-archive CMakeFiles\HZDR_Data_Acquisition.dir/objects.a -Wl,--no-whole-archive -o HZDR_Data_Acquisition.exe -Wl,--out-implib,libHZDR_Data_Acquisition.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HZDR_Data_Acquisition.dir\linklibs.rsp

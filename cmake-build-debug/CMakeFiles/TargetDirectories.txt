@@ -1,0 +1,6 @@
+C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/LTT.dir
+C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/HZDR_Data_Acquisition.dir
+C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/Libraries/LTT_API/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/HZDR/hzdr_tasler_data_acquisition/cmake-build-debug/Libraries/LTT_API/CMakeFiles/rebuild_cache.dir
